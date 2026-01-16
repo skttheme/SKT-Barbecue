@@ -1,0 +1,126 @@
+/*
+Theme Name: SKT Barbecue
+Theme URI: https://www.sktthemes.org/shop/free-spice-wordpress-theme
+Author: SKT Themes
+Author URI: https://www.sktthemes.org
+Description: SKT Barbeque WordPress theme can be used for barbeque restaurants, cafeterias, coffee shops, eateries, grilled dishes, smoky aromas, mouthwatering recipes, online reservations, tandoor, sigri, open air, roof top bistro, fine dining, chef special recipe, food blogger, ingredients, tasting menu, drink wine bar cellar, chinese, sushi, continental, italian, fast food, thai, pizza, tea, Japanese, burger, doughnut, cuisine, bakery, dairy, biscuit, korean, kitchen, fish, turkey, chicken, appetizer, soups, healthy eating lifestyle. It is a must-have for anyone looking to create a professional, modern, and stylish website for their food-related business. Appointment and online ordering compatible. WooCommerce and SEO compatible. Demo: https://sktperfectdemo.com/themepack/barbecue/
+Template: skt-pizzeria
+Version: 1.6
+Tested up to: 6.8
+Requires PHP: 5.6
+License: GNU General Public License
+License URI: https://www.gnu.org/licenses/license-list.html#GPLv2
+Text Domain: skt-barbecue
+Tags: two-columns,right-sidebar,full-width-template,custom-background,custom-colors,custom-menu,sticky-post,theme-options,threaded-comments,featured-images,footer-widgets,translation-ready,rtl-language-support,custom-logo,editor-style,custom-header,blog,e-commerce,portfolio
+
+SKT Barbecue is based on Underscores theme(Underscores is distributed under the terms of the GNU GPL v2 or later).
+
+SKT Barbecue WordPress Theme has been created by SKT Themes(sktthemes.org), 2024.
+SKT Barbecue WordPress Theme is released under the terms of GNU GPL
+*/
+
+body{font-family: 'Poppins'; font-size: 16px;}
+h1, h2, h3, h4, h5, h6{font-family: 'Poppins';}
+a:hover {color: #f04541;}
+#navigation{float:left; text-align:left;} 
+.heder-rightside{float:none;}
+.logo{min-height: inherit; padding: 18px 20px 18px 0;}
+.sticky{border-bottom: 10px solid #f04541;}
+.logo h2{color:#ffffff; font-weight:700; font-size:60px; font-family: 'Oswald';} 
+.logo p{font-size:16px; color:#000; padding:0 0 0 2px;}
+.site-description, a.site-description{margin:3px 0 0 0;}
+.container{width:1230px;}
+.header{background-color:#e74829; padding:40px 0;}
+.header.transheader{background-color:transparent !important;}
+.heder-rightside{float:right;}
+.header-extras{float:left; padding: 0.3em 0 0 1.5em;}
+.header-extras .header-search-form{bottom:-55px; width:242px;}
+.header-cart{padding: 20px 0 0 10px;}
+.header-search-toggle{cursor: pointer; background: #e74829; width: 54px; height: 54px; line-height: 54px; border-radius: 100%; color: #ffffff; text-align: center; margin:5px 0 0 0; border:none;}
+
+#logo-main a:focus,
+button:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+input[type="range"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="week"]:focus,
+input[type="time"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="color"]:focus,
+textarea:focus,
+a:focus {
+  outline: 2px dotted #ffc400;
+}
+
+::selection{color: #e74829; background: #ffc915;}
+.header-extras .header-search-form .search-field{width: 100%; background-color: #fff; border: none; color: #222; padding: 15px 15px; border: solid 5px #65c05f; border-radius: 5px;}
+
+.menuareatop{float:right; text-align:left; width:auto; padding: 0 10px 0 45px; border-radius: 100px; box-shadow: 0 20px 50px rgba(0,0,0,.6); background-color:#FFF;}
+.main-navigation{font-size:18px;}
+.main-navigation ul{font-family: 'Oswald'; font-weight:500; text-transform: uppercase; letter-spacing:1px;}
+.main-navigation ul li:last-child a{padding-right:25px;}
+.main-navigation ul li a{line-height:72px; font-weight:500; color:#000;}
+.main-navigation ul li ul li a{color: #f04541;}
+.main-navigation ul li:hover a, .main-navigation ul li a:focus, .main-navigation ul li a:hover, .main-navigation ul li.current-menu-item a, .main-navigation ul li.current_page_item a{color: #f04541;}
+#sidebar ul li a:hover{color: #f04541;}
+
+.main-navigation ul ul{font-weight:400;}
+.main-navigation .sub-menu li a{font-weight:400 !important;}
+.main-navigation ul ul li a:hover, .main-navigation ul ul li a:focus{background-color:#65c05f;}
+
+
+.inner-banner-thumb{background-color:#545556; min-height:360px; max-height:360px;}
+.inner-banner-thumb img{min-height:360px; max-height:360px;}
+
+.transbanner.inner-banner-thumb h1{text-align: center; padding: 0; font-size: 46px; font-weight: 700; top: 55%; left: 0; right: 0;}
+.inner-banner-thumb h1{position: absolute; text-align: center; padding: 0; font-size: 46px; font-weight: 700; top: 41%; left: 0; right: 0; font-family: 'Oswald'; color:#ffffff;}
+
+
+.skt-header-quote-btn{float:left;}
+.skt-header-quote-btn a{position:relative; top:11px; right:0; border-radius: 100px; padding: 13px 30px; min-width:inherit; line-height:25px; font-family: 'Oswald'; font-size:18px; font-weight:500; background-color:#65c05f; color:#FFF; margin-left:25px;}
+.skt-header-quote-btn a:hover{ background-color:#e74829 !important; color:#FFF !important;}
+
+#sidebar .wp-block-search__label{font-family: 'Poppins';}
+#sidebar ul li a:hover, .blog_lists h4 a:hover, .recent-post h6 a:hover, .recent-post a:hover, .design-by a, .postmeta a:hover, .tagcloud a, .blocksbox:hover h3, .rdmore a, .main-navigation ul li:hover a, .main-navigation ul li a:focus, .main-navigation ul li a:hover, .main-navigation ul li.current-menu-item a, .main-navigation ul li.current_page_item a, .copyright-txt a:hover, #footermenu li.current-menu-item a, #footermenu li.current_page_item a, .header-phone-number, #sidebar li a:hover, .main-navigation ul li ul li a{color: #f04541;}
+.postmeta a{color:#292929;}
+body.wp-custom-logo .logo{padding: 10px 18px 0 0;}
+.copyright-wrapper{background-color:#090d10; color:#FFF; border-top: 1px solid #30353d;}
+.copyright-txt{border-top: none !important;}
+.ft-infobox .container{border-bottom:none !important;}
+
+.footerinfobox{position:relative;}
+.footerinfobox:before{content: ''; background-image: url(images/footer-left-image.png); background-repeat: no-repeat; width: 165px; height: 133px; position: absolute; left: -2%; top: 45%; transform: translateY(-50%); background-size: 100%;}
+.footerinfobox:after{content: ''; background-image: url(images/footer-right-image.jpg); background-repeat: no-repeat; width: 213px; height: 185px; position: absolute; right: -2%; top: 50%; transform: translateY(-50%); background-size: 100%;}
+
+.copyright-txt{padding:40px 0; color:#FFF; text-align:center; font-family: 'Poppins'; font-size:17px; font-weight:400;}
+.cart-customlocation{display: block; position: relative; background: #f04541; width: 54px; height: 54px; line-height: 54px; border-radius: 100%; font-size: 20px; text-align: center; top:0px;}
+.cart-customlocation img{width:45%; position:relative; top:-3px;}
+.custom-cart-count{font-size: 14px; color: #150909; background-color: #ffffff !important; height: 32px; width: 32px; display: block; border-radius: 50%; text-align: center; line-height: 32px; position: absolute; top: 50%; right: -20px; transform: translateY(-50%);}
+.cols-3{width: 24.99%; margin: 0 0 0.5% 0; padding:0 15px; float:left;}
+.widget-column-4{margin-right: 0 !important;}
+#footer{background-image:none; background-color:#090d10;}
+.footer-row .widget_nav_menu ul{ background-color:transparent; padding:0px; margin:0px;}
+.footer-row .widget_nav_menu ul li{display:block; text-align:left;}
+.footer-row ul li a::before {content: ''; padding-right: 0px;}
+.footer-row .cols-3 ul li a{color:#ffffff;}
+.footer-row .widget_nav_menu ul{border-radius:0px; font-family: 'Poppins'; font-size:17px; font-weight:normal;}
+.cols-3 ul li{line-height:30px;}
+.footer-row .cols-3 ul li a:hover, .footer-row .cols-3 ul li.current_page_item a, .footer-row .cols-3 ul li.current-menu-item a{color: #f04541;}
+#footer:after{display:none;}
+.footerarea{padding:0;}
+.footer-logo{float:none; text-align:center;}
+.copyright-txt a{color:#ffce23;}
+.footer h1, .footer h2, .footer h3, .footer h4, .footer h5, .footer h6{font-family: 'Oswald';}
+.footer aside.widget{color:#FFF;}
+.container.footer{padding:30px 0 0 0;}
